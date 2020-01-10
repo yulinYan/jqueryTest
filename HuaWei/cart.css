@@ -1,0 +1,98 @@
+.cart1{
+	position: absolute;
+	top: 38px;
+	z-index: 300;
+	width: 100%;
+	
+}
+.cart1 img{
+	width: 100%;
+}
+table{
+	/* width:1200px; */
+	margin: 50px auto;
+	text-align: center;
+	border: none;
+	/* width: 100%; */
+}
+tr{
+	box-shadow: 0 2px 16px 0 rgba(0,0,0,0.07);
+	background-color: #F5F5F5;
+}
+th{
+	background-color:#fff;
+	border: none;
+	height: 30px;
+	color: #999;
+	font-size: 14px;
+	font-weight: 300;
+}
+td{
+	
+	/* height: 100px; */
+	border: none;
+	line-height:1;
+	/* width: 590px; */
+	overflow: hidden;
+	width: 150px;
+	
+}
+td a{
+	display: inline-block;
+	/* width: 300px; */
+	font-size: 13px;
+}
+.nameTd{
+	margin: 0;
+	padding: 0!important;
+	width: 600px;
+}
+.name1{
+	width: 450px;
+	float: left;
+	/* background: red; */
+	margin-bottom: 6px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    display: block;
+    position: relative;
+    max-height: 53px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	margin-top: 20px;
+	/* width: auto; */
+}
+.w100{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.firstTr{
+	background-color: #fff;
+}
+.smallDiv{
+	width: 30px;
+	height: 30px;
+	float: left;
+	border: 1px solid firebrick;
+	margin-left: 15px;
+	
+}
+.smallDiv img{
+	width: 100%;
+}
+
+.tab2-img-r{
+	float: left;
+}
+.tab2-img{
+	float: left;
+}
+#tab2 td{
+	width: 300px;
+}
+.tab2-img-r p{
+	font-size: 13px;
+	margin: 20px auto;
+}
+

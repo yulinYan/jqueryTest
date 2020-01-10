@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		 <!-- meta:vp(emmet语法) -->
+    <!--
+        viewport  视口属性 只有在移动端浏览器上才有用
+        width=device-width 视口宽度和设备宽度一样，  width=500  （不用加px单位）
+              width一般设为device-width，height不设置
+        initial-scale 初始化放大比例
+        user-scalable 是否允许用户放大/缩小
+    -->
+ 
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title></title>
+		<style type="text/css">
+			div{
+				font-size: 0.2rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div>haha</div>
+	</body>
+</html>
+<script type="text/javascript" src="JQuery.js">
+	
+</script>
+<script>
+	//通过手机屏幕dpr和手机宽度来确定font-size的值
+
+function autorun() {
+
+//初始值
+
+var default_width = 20;
+
+var default_dpr = 1;
+
+var dpr = window.devicePixelRatio;
+
+console.log(dpr);
+
+var width = screen.width;
+console.log(screen.width);
+
+var html_style = '';
+
+var body_style = '';
+
+
+//计算
+
+var num = 100/((1080/dpr)/100)
+console.log(num);
+
+html_style = 'font-size:'+num+'vw';
+
+body_style = 'font-size:0.14rem';
+
+}
+autorun()
+//进行dom操作
+
+$("html").style.font-size='27.77'vw;
+
+// $("body").attr('style', body_style);
+
+
+
+
+
+
+</script>

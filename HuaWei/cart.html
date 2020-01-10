@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="header.css"/>
+		<link rel="stylesheet" type="text/css" href="cart.css"/>
+	</head>
+	<body>
+		<!-- 头部引入 -->
+		<header ></header>
+		<div class="cart1">
+			<img src="img/cart1.png" >
+		</div>
+		<!-- ---------------------------------------------购物车开始------------------------------------ -->
+		<div class="cart">
+			
+		
+			<table border="" id="tab1">
+					<tr><th>商品名称</th><th>数量</th><th>单价</th><th>小计</th><th>操作</th></tr>
+					<tr class="firstTr">
+						<td class="nameTd">
+							<img src="img/100_100_1.png" class="w100" >
+							<div class="name1" style="float: left;">
+								<p ><a href="Magnifier.html" >
+								荣耀20S 3200万人像超级夜景 4800万超广角AI三摄 麒麟810旗舰级芯片 全网通版6GB+128GB 蝶羽蓝</a></p>
+								
+							</div>
+								
+						</td>
+						<td> 
+							<button type="button">-</button>
+							<span class="goods-num">0</span> 
+							<button type="button">+</button> 
+						</td>
+						<td>￥<span class="goods-price">1899.00</span></td>
+						<td>小计：<span class="sum">0</span></td>
+						<td><input type="button" name="" id="" value="删除" /></td>
+						
+					</tr>
+					
+					<tr>
+						<td colspan="5">商品一共
+							<span id="total-num">0</span>
+							件，共计花费
+							<span id="total-price">0</span>
+							元。
+						</td>
+					</tr>
+				</table>
+			
+			
+			<table border="" id="tab2">
+				<!-- <tr><th>商品名称</th><th>单价</th><th>操作</th></tr> -->
+				<tr>
+					<td>
+						<img src="img/100_100_9.png" class="tab2-img">
+						<div class="tab2-img-r">
+							<p >荣耀手环5篮球版(樱语粉)</p>
+							<div class="smallDiv">
+								<img src="img/100_100_2.png" >
+							</div>
+							<div class="smallDiv">
+								<img src="img/100_100_10.png" >
+							</div>
+						</div>
+					</td>
+					<td>￥<span>129</span></td><td><input type="button" name="" id="" value="+" /></td>
+				</tr>
+				<tr>
+					<td>
+						<img src="img/100_100_3.png" class="tab2-img">
+						<div class="tab2-img-r">
+							<p >荣耀手环5篮球版(樱语粉)</p>
+							<div class="smallDiv">
+								<img src="img/100_100_3.png" >
+							</div>
+							<div class="smallDiv">
+								<img src="img/100_100_4.png" >
+							</div>
+							<div class="smallDiv">
+								<img src="img/100_100_5.png" >
+							</div>
+						</div>
+					</td>
+					<td>￥<span>129</span></td><td><input type="button" name="" id="" value="+" /></td>
+				</tr>
+				<tr>
+					<td>
+						<span>
+						<img src="img/100_100_7.png" class="tab2-img">
+						<div class="tab2-img-r">
+							<p >荣耀手环5篮球版(樱语粉)</p>
+							<div class="smallDiv">
+								<img src="img/100_100_5.png" >
+							</div>
+							<div class="smallDiv">
+								<img src="img/100_100_6.png" >
+							</div>
+							<div class="smallDiv">
+								<img src="img/100_100_7.png" >
+							</div>
+						</div>
+						</span>
+					</td>
+					<td>￥<span>129</span></td><td><input type="button" name="" id="" value="+" /></td>
+				</tr>
+			</table>
+		</div>
+		
+		<!-- 底部引入 -->
+		<div id="footer"></div>
+	</body>
+</html>
+<script src="JQuery.js"></script>
+<script src="cart.js"></script>
+<script type="module" >
+	import {fun} from './footer.js';
+	import {header} from './header.js';
+		$("header").load("header.html #top1",function(){
+			header();
+		});
+	$("#footer").load("footer.html #footer",function(){
+		fun();
+	});
+	
+</script>

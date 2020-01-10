@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	background-color: #333;
+    height: 67px;
+    min-width: 960px;
+	/* line-height: -11px; */
+	overflow: hidden;
+}
+header img{
+	margin-top: 15px;
+	margin-left: 10%;
+	
+}
+header span{
+	
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	border-left: 1.5px solid #fff;
+	font-size: 18px;
+	color: #fff;
+    margin-left: 18px;
+    position: absolute;
+    top: 23px;
+}
+.mid{
+	width: 100%;
+    margin: 0 auto;
+    background: #f2f2f2;
+	position: relative;
+	height: 854px;
+	overflow: hidden;
+	
+}
+.mid-1{
+	width: 960px;
+	height: 35px;
+	margin:0 auto;
+	overflow: hidden;
+	position: relative;
+	margin-top: 30px;
+}
+.mid-top-1:first-child{
+	background-color: #B40707;
+}
+.mid-top-1{
+	display: inline-block;
+	width: 146px;
+	height: 35px;
+	line-height: 35px;
+	background:#CCCCCC;
+	color: #fff;
+	font-size:16px;
+	overflow: hidden;
+	text-align: center;
+	position: relative;
+}
+.mid-top-2{
+	display: inline-block;
+	width: 146px;
+	height: 35px;
+	line-height: 35px;
+	position: absolute;
+	top: 0px;
+	right: 0;
+}
+.mid-top-2 a{
+	text-decoration: none;
+	color:#007DFF ;
+}
+.midTopImg1{
+	display: inline-block;
+	width: 14px;
+	height: 22px;
+	background: #fff;
+	position: absolute;
+	left: 30px;
+	top: 5px;
+}
+.midTopImg2{
+	display: inline-block;
+	width: 22px;
+	height: 17px;
+	background: #fff;
+	position: absolute;
+	left: 15px;
+	top: 8px;
+}
+
+.mid-2{
+	width: 960px;
+	height: 670px;
+	background-color: #fff;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.title{
+	font-size: 24px;
+	text-align: center;
+	margin-top:40px ;
+}
+#title{
+	font-size: 16px;
+	color: #999;
+	margin-top: 5px;
+}
+/* 复制过来的 */
+input:focus {
+	outline:none;
+}
+.tabs {
+	width:600px;
+	margin:0 auto;
+	margin-top:100px;
+}
+.tabs-title {
+	height:50px;
+	line-height:50px;
+	background:#000;
+	color:#fff;
+	padding:0 20px
+}
+.item {
+	margin-top:50px;
+	position:relative
+	
+}
+.item p{
+	float: left;
+	border: 1px solid #999;
+	
+}
+.item input{
+	float: left;
+	border: 1px solid #999;
+	width: 80%;
+	/* margin-top: 0!important; */
+}
+.tel,.code {
+	width:600px;
+	border:none;
+	border-bottom:1px solid #999;
+	height:30px;
+	margin-top:10px
+}
+.j-getCode {
+	position:absolute;
+	right:0;
+	top:20px;
+	padding:4px 20px;
+	background:#FFE8BB;
+	color:#FF6600;
+	border-radius:45px;
+}
+.send {
+	background:#E5E5E5;
+	color:#777;
+}
+.j-getCode:hover {
+	cursor:pointer;
+}
+#j-count {
+	font-style:normal;
+	padding-right:2px
+}
